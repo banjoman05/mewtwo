@@ -35,6 +35,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
         args = args.splice(1);
         switch(cmd) {
+                
+    // Commands start here
+                
         // !help
                 case 'help':
                 bot.sendMessage({
@@ -77,6 +80,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 message: (pvp1)
                 });
                 break;
+                
+    // Commands stop here
 }
      }
 });
