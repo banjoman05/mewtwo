@@ -6,11 +6,11 @@ This readme assumes you already have a Discord bot and know how to add them to y
 
 1. Create local files and edit as needed.
 
- auth.json
+` auth.json
  package.json
  mewtwo.js
  loop.sh
- start_mewtwo.sh
+ start_mewtwo.sh`
 
 2. Install dependencies
 $ npm install discord.io winston –save
