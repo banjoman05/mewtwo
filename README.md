@@ -21,7 +21,7 @@ $ npm install https://github.com/woor/discord.io/tarball/gateway_v6
 ```
 $ node mewtwo.js
 ```
-# 4. Start it manually with an autorestart
+# 4. Start it manally with an autorestart
 ```
 $ loop.sh
 ```
@@ -30,7 +30,7 @@ $ loop.sh
 $ screen -dm -S mewtwo ~/loop.sh
 ```
 # 6. Use a script to start the bot at boot and restart if crashed
-Edit start_mewtwo.sh as needed and add line to crontab.
+Edit `start_mewtwo.sh` as needed and add line to crontab.
 
 `$ crontab -e`
 ```
@@ -40,7 +40,7 @@ Edit start_mewtwo.sh as needed and add line to crontab.
 # 7. Extra monitoring
 Edit `mewtwo_check.sh`, add your cell alias or email address.
 
-$ crontab -e
+`$ crontab -e`
 ```
 # Run every 15 min
 */15 * * * * ~/mewtwo_check.sh >/dev/null 2>&1
